@@ -1,27 +1,143 @@
 body {
     margin: 0;
-    background-color: #f2f2f2;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* PAGINA PRINCIPAL */
+
+.contenedor-principal {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contenedor-principal h1 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 4rem;
+    color: #e60012;
+    margin-bottom: 30px;
+}
+
+.contenedor-principal a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #e60012;
+    padding: 15px 35px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.contenedor-principal a:hover {
+    background-color: #b8000e;
+}
+
+.contenedor-principal img {
+    width: 70%;
+    max-width: 650px;
+    border-radius: 15px;
+}
+
+
+/* PAGINA NINTENDO */
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 4.5rem;
     color: #e60012;
-    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-    color: #e60012;
-}
 
-a {
+/* BOTONES */
+
+body > a {
     text-decoration: none;
-    color: white;
-    background-color: #e60012;
-    padding: 12px 20px;
-    border-radius: 10px;
+    color: #e60012;
+    background-color: white;
+    padding: 12px 25px;
+    border: 2px solid #e60012;
+    border-radius: 25px;
+    font-weight: bold;
     margin: 10px;
 }
 
-img {
-    max-width: 500px;
+body > a:hover {
+    background-color: #e60012;
+    color: white;
+}
+
+
+/* IMAGEN PRINCIPAL */
+
+body > img {
+    display: block;
+    width: 70%;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* INFORMACION */
+
+body > p {
+    width: 85%;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333333;
+    text-align: justify;
+}
+
+
+/* TITULOS */
+
+body > h2 {
+    width: 85%;
+    margin: 40px auto 15px;
+    color: #e60012;
+    border-bottom: 3px solid #e60012;
+    padding-bottom: 10px;
+}
+
+
+/* JUEGOS */
+
+body > div {
+    width: 85%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+body > div h3 {
+    color: #e60012;
+    font-size: 1.5rem;
+}
+
+body > div img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+body > div p {
+    color: #333333;
+    line-height: 1.6;
 }
